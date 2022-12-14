@@ -10,14 +10,14 @@
 
 
     <LinearLayout
-        android:id="@+id/oyuncu1_linearLayout"
+        android:id="@+id/llPlayer1"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="vertical">
 
         <ImageButton
-            android:id="@+id/oyuncu1Buton1"
+            android:id="@+id/player1Btn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -28,7 +28,7 @@
             android:contentDescription="@string/oyuncu1Butonlari"/>
 
         <ImageButton
-            android:id="@+id/oyuncu1Buton2"
+            android:id="@+id/player1Btn2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -38,7 +38,7 @@
             android:contentDescription="@string/oyuncu1Butonlari"/>
 
         <ImageButton
-            android:id="@+id/oyuncu1Buton3"
+            android:id="@+id/player1Btn3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -48,7 +48,7 @@
             android:contentDescription="@string/oyuncu1Butonlari" />
 
         <ImageButton
-            android:id="@+id/oyuncu1Buton4"
+            android:id="@+id/player1Btn4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -58,7 +58,7 @@
             android:contentDescription="@string/oyuncu1Butonlari"/>
 
         <ImageButton
-            android:id="@+id/oyuncu1Buton5"
+            android:id="@+id/player1Btn5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -68,7 +68,7 @@
             android:contentDescription="@string/oyuncu1Butonlari"/>
 
         <ImageButton
-            android:id="@+id/oyuncu1Buton6"
+            android:id="@+id/player1Btn6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -98,7 +98,7 @@
 
 
             <ImageButton
-                android:id="@+id/buton1_1"
+                android:id="@+id/btn1_1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/empty_background"
@@ -106,7 +106,7 @@
                 android:contentDescription="@string/oyunAlaniButonlari" />
 
             <ImageButton
-                android:id="@+id/buton1_2"
+                android:id="@+id/btn1_2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/empty_background"
@@ -114,41 +114,7 @@
                 android:contentDescription="@string/oyunAlaniButonlari"/>
 
             <ImageButton
-                android:id="@+id/buton1_3"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/empty_background"
-                app:srcCompat="@drawable/empty_drawable"
-                android:contentDescription="@string/oyunAlaniButonlari"/>
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:divider="@drawable/ara_cizgi"
-            android:showDividers="middle">
-
-
-            <ImageButton
-                android:id="@+id/buton2_1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/empty_background"
-                app:srcCompat="@drawable/empty_drawable"
-                android:contentDescription="@string/oyunAlaniButonlari"/>
-
-            <ImageButton
-                android:id="@+id/buton2_2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/empty_background"
-                app:srcCompat="@drawable/empty_drawable"
-                android:contentDescription="@string/oyunAlaniButonlari"/>
-
-            <ImageButton
-                android:id="@+id/buton2_3"
+                android:id="@+id/btn1_3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/empty_background"
@@ -166,7 +132,7 @@
 
 
             <ImageButton
-                android:id="@+id/buton3_1"
+                android:id="@+id/btn2_1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/empty_background"
@@ -174,7 +140,7 @@
                 android:contentDescription="@string/oyunAlaniButonlari"/>
 
             <ImageButton
-                android:id="@+id/buton3_2"
+                android:id="@+id/btn2_2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/empty_background"
@@ -182,7 +148,41 @@
                 android:contentDescription="@string/oyunAlaniButonlari"/>
 
             <ImageButton
-                android:id="@+id/buton3_3"
+                android:id="@+id/btn2_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/empty_background"
+                app:srcCompat="@drawable/empty_drawable"
+                android:contentDescription="@string/oyunAlaniButonlari"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:divider="@drawable/ara_cizgi"
+            android:showDividers="middle">
+
+
+            <ImageButton
+                android:id="@+id/btn3_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/empty_background"
+                app:srcCompat="@drawable/empty_drawable"
+                android:contentDescription="@string/oyunAlaniButonlari"/>
+
+            <ImageButton
+                android:id="@+id/btn3_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/empty_background"
+                app:srcCompat="@drawable/empty_drawable"
+                android:contentDescription="@string/oyunAlaniButonlari"/>
+
+            <ImageButton
+                android:id="@+id/btn3_3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/empty_background"
@@ -195,7 +195,7 @@
 
 
     <LinearLayout
-        android:id="@+id/oyuncu2_linearLayout"
+        android:id="@+id/llPlayer2"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -203,7 +203,7 @@
         android:padding="15dp">
 
         <ImageButton
-            android:id="@+id/oyuncu2Buton1"
+            android:id="@+id/player2Btn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -214,7 +214,7 @@
             android:contentDescription="@string/oyuncu2Butonlari" />
 
         <ImageButton
-            android:id="@+id/oyuncu2Buton2"
+            android:id="@+id/player2Btn2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -224,7 +224,7 @@
             android:contentDescription="@string/oyuncu2Butonlari"/>
 
         <ImageButton
-            android:id="@+id/oyuncu2Buton3"
+            android:id="@+id/player2Btn3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -234,7 +234,7 @@
             android:contentDescription="@string/oyuncu2Butonlari"/>
 
         <ImageButton
-            android:id="@+id/oyuncu2Buton4"
+            android:id="@+id/player2Btn4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -244,7 +244,7 @@
             android:contentDescription="@string/oyuncu2Butonlari"/>
 
         <ImageButton
-            android:id="@+id/oyuncu2Buton5"
+            android:id="@+id/player2Btn5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -254,7 +254,7 @@
             android:contentDescription="@string/oyuncu2Butonlari"/>
 
         <ImageButton
-            android:id="@+id/oyuncu2Buton6"
+            android:id="@+id/player2Btn6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"

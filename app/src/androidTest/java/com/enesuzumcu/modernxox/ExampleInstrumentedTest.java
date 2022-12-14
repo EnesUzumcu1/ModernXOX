@@ -1,4 +1,4 @@
-package com.example.modernxox;
+package com.enesuzumcu.modernxox;
 
 import android.content.Context;
 
